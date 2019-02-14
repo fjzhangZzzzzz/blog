@@ -294,6 +294,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/01/30/hello-world/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/01/30/hello-world/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -320,16 +330,23 @@
       
         
           
-            <h2 id="哦嚯"><a href="#哦嚯" class="headerlink" title="哦嚯~"></a>哦嚯~</h2><ul>
-<li><p>处女博啊啊~</p>
-</li>
-<li><p>我长大了，虽然还是个孩子，但应该记录点什么了。</p>
-</li>
-<li><p>flag已立，坐等博客年更打脸，/手动滑稽。</p>
-</li>
-</ul>
+          哦嚯~
+处女博啊啊~
+
+我长大了，虽然还是个孩子，但应该记录点什么了。
+
+flag已立，坐等博客年更打脸，/手动滑稽。
+
+
 
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/01/30/hello-world/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -470,6 +487,7 @@
 
   
 </div>
+
 
 
   <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
@@ -626,6 +644,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: '5ntC8c45PQJejRYcsMmJjcSj-gzGzoHsz',
+        appKey: 'vE1p8MM8Xk0CYaidX2HNMETn',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
