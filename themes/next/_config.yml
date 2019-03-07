@@ -383,7 +383,7 @@ valine:
   appkey: vE1p8MM8Xk0CYaidX2HNMETn # your leancloud application appkey
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
-  placeholder: Just go go # comment box placeholder
+  placeholder: 来都来了，大过节的，不留点东西？ # comment box placeholder
   avatar: mm # gravatar style
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
@@ -695,7 +695,7 @@ pace: true
 pace_theme: pace-theme-big-counter
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest: false
 
 # three_waves
 three_waves: false
@@ -812,28 +812,35 @@ images: images
 # Theme version
 version: 5.1.4
 
-
 # Live2D
 # https://github.com/EYHN/hexo-helper-live2d
-live2d:
-  enable: true
-  # scriptFrom: jsdelivr # jsdelivr CDN
-  # scriptFrom: unpkg # unpkg CDN
-  # scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # Your custom url
-  scriptFrom: local # Default
-  pluginRootPath: live2dw/ # Root path of plugin to be on the site (Relative)
-  pluginJsPath: lib/ # JavaScript path related to plugin's root (Relative)
-  pluginModelPath: assets/ # Relative model path related to plugin's root (Relative)
-  tagMode: false # Whether only to replace live2d tag instead of inject to all pages
-  log: false # Whether to show logs in console
-  model:
-    use: live2d-widget-model-wanko # npm-module package name
-    # use: wanko # folder name in (hexo base dir)/live2d_models/
-    # use: ./wives/wanko # folder path relative to hexo base dir
-    # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # Your custom url
-  display:
-    position: right
-    width: 150
-    height: 300
-  mobile:
-    show: true
+# live2d:
+#   enable: true
+#   scriptFrom: jsdelivr # jsdelivr CDN
+#   # scriptFrom: unpkg # unpkg CDN
+#   # scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # Your custom url
+#   # scriptFrom: local # Default
+#   pluginRootPath: live2dw/ # Root path of plugin to be on the site (Relative)
+#   pluginJsPath: lib/ # JavaScript path related to plugin's root (Relative)
+#   pluginModelPath: assets/ # Relative model path related to plugin's root (Relative)
+#   tagMode: false # Whether only to replace live2d tag instead of inject to all pages
+#   log: false # Whether to show logs in console
+#   model:
+#     use: live2d-widget-model-wanko # npm-module package name
+#     # use: wanko # folder name in (hexo base dir)/live2d_models/
+#     # use: ./wives/wanko # folder path relative to hexo base dir
+#     # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # Your custom url
+#     scale: 0.5
+#   display:
+#     position: left
+#     width: 80
+#     height: 160
+#   mobile:
+#     show: false
+#     scale: 0.05
+
+# Online contact 
+# Daovoice http://dashboard.daovoice.io/app/157503e1/settings/install
+# sign in with github account
+daovoice: true
+daovoice_app_id: 157503e1

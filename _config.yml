@@ -91,3 +91,23 @@ search:
   field: post
   format: html
   limit: 10000
+
+# 看板娘
+live2d:
+  model:
+    scale: 1
+    hHeadPos: 0.5
+    vHeadPos: 0.618
+  display:
+    superSample: 2
+    width: 80
+    height: 160
+    position: left
+    hOffset: 0
+    vOffset: -20
+  mobile:
+    show: true
+    scale: 0.5
+  react:
+    opacityDefault: 0.7
+    opacityOnHover: 0.2
