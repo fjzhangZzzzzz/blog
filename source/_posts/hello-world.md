@@ -1,6 +1,14 @@
 ---
 title: Hello World
-tags: [firstblood]
+author: 大表哥
+tags: # 标签
+  - firstblood
+  - hello world
+categories: # 分类
+  - 日常
+description: # 概要
+  - 万物起源“Hello world”
+date: 2019-01-30 14:02:24
 ---
 
 ## 哦嚯~
