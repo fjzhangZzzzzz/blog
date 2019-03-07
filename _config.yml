@@ -84,3 +84,10 @@ deploy:
   type: git
   repo: https://github.com/fjzhangZzzzzz/fjzhangZzzzzz.github.io.git
   branch: master
+
+# 本地搜索服务
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
