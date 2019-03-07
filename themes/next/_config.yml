@@ -230,9 +230,9 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
-  totalcount: false
+  wordcount: false      # 单篇字数统计
+  min2read: false       # 单篇阅读时长
+  totalcount: false    # 网站字数统计
   separated_meta: true
 
 # Wechat Subscriber
