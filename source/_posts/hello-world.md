@@ -6,12 +6,16 @@ tags: # 标签
   - hello world
 categories: # 分类
   - 日常
-description: # 概要
-  - 万物起源“Hello world”
+#description: # 概要
+#  - 万物起源“Hello world”
 date: 2019-01-30 14:02:24
 ---
 
-## 哦嚯~
+> 万物起源 -- hello world
+
+<!--more-->
+
+# 哦嚯~
 
 - 处女博啊啊~
 
